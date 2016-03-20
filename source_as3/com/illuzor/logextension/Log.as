@@ -35,6 +35,13 @@ package com.illuzor.logextension {
 			context.call("log", type, tag, message);
 		}
 		
+		public static function dispose():void {
+			if (context) {
+				context.dispose();
+				context = null;
+			}
+		}
+		
 	}
 
 }
