@@ -1,0 +1,23 @@
+<extension xmlns="http://ns.adobe.com/air/extension/21.0">
+	<id>com.illuzor.extensions.LogExtension</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>logExtLib.jar</nativeLibrary>
+				<initializer>com.illuzor.logextension.LogExtension</initializer>
+				<finalizer>com.illuzor.logextension.LogExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>logExtLib.jar</nativeLibrary>
+				<initializer>com.illuzor.logextension.LogExtension</initializer>
+				<finalizer>com.illuzor.logextension.LogExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default"> 
+            <applicationDeployment/> 
+        </platform> 
+	</platforms>
+</extension>
