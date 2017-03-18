@@ -14,10 +14,11 @@ Connect com.illuzor.extensions.LogExtension.ane file to your android air project
 Import com.illuzor.logextension.Log;
 
 Using example:
-	
-	Log.e("TAG", "message"); // error
-	Log.d("TAG", "message"); // debug
-	Log.i("TAG", "message"); // info
-	Log.v("TAG", "message"); // verbose
-	Log.w("TAG", "message"); // warn
-	Log.wtf("TAG", "message"); // What a Terrible Failure
+```actionscript	
+Log.e("TAG", "message"); // error
+Log.d("TAG", "message"); // debug
+Log.i("TAG", "message"); // info
+Log.v("TAG", "message"); // verbose
+Log.w("TAG", "message"); // warn
+Log.wtf("TAG", "message"); // What a Terrible Failure
+```
